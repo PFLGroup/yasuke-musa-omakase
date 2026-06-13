@@ -14,7 +14,7 @@ Statyczny `HTML + CSS + JS` (bez frameworków, bez build-stepu na serwerze) — 
 
 - **Charakter:** materiał poglądowy / demo (oznaczone na stronie plakietką „Strona testowa").
 - **Indeksowanie:** wyłączone (`robots noindex,nofollow` + `robots.txt`) — strona nie ma trafiać do Google.
-- **Repozytorium:** prywatne. Publiczny jest tylko wynik (Pages).
+- **Repozytorium:** publiczne (wymagane dla GitHub Pages na planie Free). W repo trafia **tylko zminifikowany build** — czytelne źródła (rozdzielone CSS/JS) są utrzymywane poza repo, po stronie wykonawcy. Docelowo, po przejściu na GitHub Pro, repo może wrócić do prywatnego bez zmiany adresu strony.
 - **Formularz „Apply for the Registry":** tryb demo (nic nie wysyła). Aby zbierać zgłoszenia,
   podepnij endpoint Formspree/Basin/Tally w źródle i przebuduj.
 

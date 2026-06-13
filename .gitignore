@@ -1,0 +1,12 @@
+# systemowe
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# edytory
+.vscode/
+.idea/
+
+# zależności / build (gdyby kiedyś doszły)
+node_modules/
+*.log

@@ -133,7 +133,7 @@ method: "POST",
 headers: { "Content-Type": "application/json", Accept: "application/json" },
 body: JSON.stringify({
 email, details, referrer,
-request: request ? request.value : "counter",
+request: request ? request.options[request.selectedIndex].text : "Reserve the counter",
 list: request && request.value === "prelude" ? "Prelude box" : "Private counter",
 source: "yasuke-musa-omakase",
 }),
